@@ -98,6 +98,10 @@ vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 # Charger
 vendor/bin/hvdcp_opti
 
+# CAS
+lib/android.hardware.cas@1.0.so
+lib64/android.hardware.cas@1.0.so
+
 # CNE
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -170,6 +174,7 @@ vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsdedrm.so
+vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
