@@ -358,6 +358,9 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libvqzip.so
 vendor/lib64/libgpustats.so
 
+# Media firmware
+vendor/firmware/tfa98xx.cnt
+
 # Perf
 vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
