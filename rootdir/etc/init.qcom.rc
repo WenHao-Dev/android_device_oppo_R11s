@@ -320,8 +320,9 @@ on post-fs-data
     #Create folder of camera
     mkdir /data/vendor/camera 0770 camera camera
 
-    #Change ownership to system
-    chown system system /data/vendor/tombstones
+    # b/65834073 Create rfs folder for tftp_server
+    mkdir /data/vendor/tombstones 0770 system system
+    mkdir /data/vendor/tombstones/rfs 0770 root system
 
     mkdir /data/vendor/ramdump 0771 root system
     mkdir /data/vendor/bluetooth 0770 bluetooth bluetooth
