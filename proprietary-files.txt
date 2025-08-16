@@ -1,6 +1,7 @@
 # All blobs from sdm660_64-user 9 PKQ1.190414.001 eng.root.20200522.190302 release-keys, unless pinned
 
 # ACDBs
+vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/17011/Bluetooth_cal.acdb
 vendor/etc/acdbdata/17011/General_cal.acdb
 vendor/etc/acdbdata/17011/Global_cal.acdb
@@ -15,24 +16,6 @@ vendor/etc/acdbdata/17021/Handset_cal.acdb
 vendor/etc/acdbdata/17021/Hdmi_cal.acdb
 vendor/etc/acdbdata/17021/Headset_cal.acdb
 vendor/etc/acdbdata/17021/Speaker_cal.acdb
-vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_General_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Global_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp
 
 # ADSP
 vendor/bin/adsprpcd
