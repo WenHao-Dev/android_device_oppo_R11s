@@ -128,7 +128,8 @@ TARGET_BOARD_PLATFORM := sdm660
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/firmware_mnt:/firmware \
     /vendor/bt_firmware:/bt_firmware \
-    /vendor/dsp:/dsp
+    /vendor/dsp:/dsp \
+    /mnt/vendor/persist:/persist
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
