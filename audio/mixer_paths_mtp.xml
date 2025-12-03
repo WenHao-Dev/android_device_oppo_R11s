@@ -194,7 +194,6 @@
     <ctl name="AFE_PCM_RX Audio Mixer MultiMedia5" value="0" />
     <!-- usb headset end -->
     <!-- fm -->
-    <ctl name="SLIMBUS_8 LOOPBACK Volume" value="0" />
     <ctl name="INT4_MI2S_RX Port Mixer SLIM_8_TX" value="0" />
     <ctl name="INT4_MI2S_RX_DL_HL Switch" value="0" />
     <ctl name="INT0_MI2S_RX Port Mixer SLIM_8_TX" value="0" />
@@ -449,12 +448,6 @@
     <ctl name="PRIM_MI2S_RX Format" value="S16_LE" />
     <ctl name="SEC_MI2S_RX Format" value="S16_LE" />
     <ctl name="PRIM_MI2S_RX Channels" value="One" />
-    <!--#endif /* VENDOR_EDIT */-->
-
-    <!--#ifdef VENDOR_EDIT -->
-    <!--Zhiyong.Zheng@PSW.MM.AudioDriver.HAL, 2017/04/05, Add for ktv loopback-->
-    <ctl name="PRI_MI2S_RX_DL_HL Switch" value="0" />
-    <ctl name="PRI_MI2S_RX Port Mixer INT3_MI2S_TX_PRI" value="0" />
     <!--#endif /* VENDOR_EDIT */-->
 
     <!--#ifdef VENDOR_EDIT -->
@@ -1495,15 +1488,6 @@
         <path name="compress-offload-playback9 sec-mi2s" />
     </path>
 
-    <!--#ifdef VENDOR_EDIT -->
-    <!--Zhiyong.Zheng@PSW.MM.AudioDriver.HAL, 2017/04/05, Add for ktv loopback-->
-    <path name="audio-record ktv-afe">
-        <ctl name="MultiMedia1 Mixer INT3_MI2S_TX" value="1" />
-        <ctl name="PRI_MI2S_RX_DL_HL Switch" value="1" />
-        <ctl name="PRI_MI2S_RX Port Mixer INT3_MI2S_TX_PRI" value="1" />
-    </path>
-    <!--#endif -->
-
     <path name="audio-record">
         <ctl name="MultiMedia1 Mixer INT3_MI2S_TX" value="1" />
     </path>
@@ -1568,13 +1552,11 @@
     </path>
 
     <path name="play-fm">
-        <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="INT4_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="INT4_MI2S_RX_DL_HL Switch" value="1" />
     </path>
 
     <path name="play-fm headphones">
-        <ctl name="SLIMBUS_8 LOOPBACK Volume" value="1" />
         <ctl name="INT0_MI2S_RX Port Mixer SLIM_8_TX" value="1" />
         <ctl name="INT0_MI2S_RX_DL_HL Switch" value="1" />
     </path>
@@ -2155,14 +2137,6 @@
         <path name="adc2" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
-
-    <!--#ifndef VENDOR_EDIT-->
-    <!--Zhiyong.Zheng@PSW.MM.AudioDriver.HAL, 2017/04/05, Add for ktv loopback-->
-    <path name="headset-mic-ktv">
-        <path name="adc2" />
-        <ctl name="ADC2 MUX" value="INP2" />
-    </path>
-    <!--#endif /* VENDOR_EDIT */-->
 
     <path name="headset-mic-liquid">
         <path name="adc2" />
