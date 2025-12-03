@@ -2347,11 +2347,56 @@ vendor/lib/libmmcamera_tuning.so
 vendor/etc/qdcm_calib_data_oppo17011samsung_sofeg01_s_1080p_cmd_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_oppo17021samsung_sofeg01_s_1080p_cmd_mode_dsi_panel.xml
 
+# Fingerprint
+vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
+vendor/bin/qfp-daemon
+vendor/etc/permissions/qti_fingerprint_interface.xml
+vendor/lib64/android.frameworks.fingerprintservice@1.0.so
+vendor/lib64/libqfp-service.so
+vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
 # Firmware
 vendor/firmware/tp/17011/17011_FW_S3508_SYNAPTICS.img
 vendor/firmware/tp/17011/17011_Limit_data.img
 vendor/firmware/tp/17021/17021_FW_S3508_SYNAPTICS.img
 vendor/firmware/tp/17021/17021_Limit_data.img
+vendor/firmware/a_fp.b00
+vendor/firmware/a_fp.b01
+vendor/firmware/a_fp.b02
+vendor/firmware/a_fp.b03
+vendor/firmware/a_fp.b04
+vendor/firmware/a_fp.b05
+vendor/firmware/a_fp.b06
+vendor/firmware/a_fp.b07
+vendor/firmware/a_fp.mdt
+vendor/firmware/a_goodix.b00
+vendor/firmware/a_goodix.b01
+vendor/firmware/a_goodix.b02
+vendor/firmware/a_goodix.b03
+vendor/firmware/a_goodix.b04
+vendor/firmware/a_goodix.b05
+vendor/firmware/a_goodix.b06
+vendor/firmware/a_goodix.b07
+vendor/firmware/a_goodix.mdt
+vendor/firmware/b_fp.b00
+vendor/firmware/b_fp.b01
+vendor/firmware/b_fp.b02
+vendor/firmware/b_fp.b03
+vendor/firmware/b_fp.b04
+vendor/firmware/b_fp.b05
+vendor/firmware/b_fp.b06
+vendor/firmware/b_fp.b07
+vendor/firmware/b_fp.mdt
+vendor/firmware/b_goodix.b00
+vendor/firmware/b_goodix.b01
+vendor/firmware/b_goodix.b02
+vendor/firmware/b_goodix.b03
+vendor/firmware/b_goodix.b04
+vendor/firmware/b_goodix.b05
+vendor/firmware/b_goodix.b06
+vendor/firmware/b_goodix.b07
+vendor/firmware/b_goodix.mdt
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.sdm660.so
