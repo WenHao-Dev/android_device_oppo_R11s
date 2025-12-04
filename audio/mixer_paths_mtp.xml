@@ -516,7 +516,7 @@
     </path>
 
     <path name="echo-reference speaker">
-        <ctl name="AUDIO_REF_EC_UL1 MUX" value="SEC_MI2S_TX" />
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="SEC_MI2S_RX" />
     </path>
 
     <path name="low-latency-echo-reference">
@@ -528,7 +528,7 @@
     </path>
 
     <path name="low-latency-echo-reference speaker">
-        <ctl name="AUDIO_REF_EC_UL8 MUX" value="SEC_MI2S_TX" />
+        <ctl name="AUDIO_REF_EC_UL8 MUX" value="SEC_MI2S_RX" />
     </path>
 
     <path name="deep-buffer-playback">
@@ -1725,7 +1725,6 @@
     </path>
 
     <path name="compress-voip-call sec-mi2s">
-        <ctl name="VOC_EXT_EC MUX" value="SEC_MI2S_TX" />
         <ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer INT3_MI2S_TX_Voip" value="1" />
     </path>
@@ -1766,19 +1765,16 @@
     </path>
 
     <path name="voicemmode1-call">
-        <ctl name="VOC_EXT_EC MUX" value="NONE" />
         <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
     </path>
 
     <path name="voicemmode1-call headphones">
-        <ctl name="VOC_EXT_EC MUX" value="NONE" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
     </path>
 
     <path name="voicemmode1-call sec-mi2s">
-        <ctl name="VOC_EXT_EC MUX" value="SEC_MI2S_TX" />
         <ctl name="SEC_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer INT3_MI2S_TX_MMode1" value="1" />
     </path>
@@ -1824,19 +1820,16 @@
     </path>
 
     <path name="voicemmode2-call">
-        <ctl name="VOC_EXT_EC MUX" value="NONE" />
         <ctl name="INT0_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
     </path>
 
     <path name="voicemmode2-call headphones">
-        <ctl name="VOC_EXT_EC MUX" value="NONE" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
     </path>
 
     <path name="voicemmode2-call sec-mi2s">
-        <ctl name="VOC_EXT_EC MUX" value="SEC_MI2S_TX" />
         <ctl name="SEC_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer INT3_MI2S_TX_MMode2" value="1" />
     </path>
