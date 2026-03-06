@@ -2323,12 +2323,12 @@ vendor/firmware/tp/17021/17021_Limit_data.img
 vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib64/hw/gatekeeper.sdm660.so
 
-# Graphics firmware - from PAAM00-user 10 QKQ1.191224.003 release-keys
+# Graphics firmware - from PAAM00-user 10 QKQ1.191224.003 1608710123 release-keys
 vendor/firmware/a512_zap.b00|85a7fc0008f9a2071d8b3d0cc212b19141633267
-vendor/firmware/a512_zap.b01|f0354b312cb3902a365e1ba72c7223af0f8ec27a
+vendor/firmware/a512_zap.b01|c7ad6c12469a312f2639bd2133f87d6d155e0462
 vendor/firmware/a512_zap.b02|33cc074ca840ae59f310a0e217aa7409afb30ac2
-vendor/firmware/a512_zap.elf|97c913abfb0f533a98a4308ee0c587e96165fb48
-vendor/firmware/a512_zap.mdt|7cc6ec0e55d29e8780496362f80a8bdf69d42114
+vendor/firmware/a512_zap.elf|cab2d6c9f6b52cfa57ce1a4f559191f5ab1e38c0
+vendor/firmware/a512_zap.mdt|6857352626bb96b117d62fe29bff543034bd4b0d
 vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
