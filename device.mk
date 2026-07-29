@@ -10,10 +10,6 @@ $(call inherit-product, device/oppo/sdm660-common/common.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/oppo/R11s/R11s-vendor.mk)
 
-# Audio configs
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
-
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayR11s
