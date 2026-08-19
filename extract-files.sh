@@ -53,6 +53,17 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        vendor/lib64/android.frameworks.fingerprintservice@1.0.so | \
+        vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so | \
+        vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so)
+            [ "${2}" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
