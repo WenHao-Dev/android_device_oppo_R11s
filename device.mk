@@ -10,10 +10,6 @@ $(call inherit-product, device/oppo/sdm660-common/common.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/oppo/R11s/R11s-vendor.mk)
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    libhidlbase-v32.vendor
-
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayR11s
