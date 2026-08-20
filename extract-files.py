@@ -26,6 +26,14 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/bin/qfp-daemon': blob_fixup()
+        .replace_needed('libhidltransport.so', 'libhidlbase.so'),
+    'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
+        .clear_symbol_version('__aeabi_memcpy')
+        .clear_symbol_version('__aeabi_memset')
+        .clear_symbol_version('__gnu_Unwind_Find_exidx'),
+    'vendor/lib/libmmcamera_tintless_bg_pca_algo.so': blob_fixup()
+        .add_needed('liblog.so'),
     (
         'vendor/lib64/android.frameworks.fingerprintservice@1.0.so',
         'vendor/lib64/vendor.oppo.hardware.commondcs@1.0.so',
