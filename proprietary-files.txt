@@ -2261,8 +2261,6 @@ vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera_tuning_lookup.so
 
 # Display calibration
 vendor/etc/qdcm_calib_data_oppo17011samsung_sofeg01_s_1080p_cmd_mode_dsi_panel.xml
